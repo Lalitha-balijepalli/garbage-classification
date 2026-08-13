@@ -1,0 +1,4 @@
+Model,Parameters,Training Time (s),Test Accuracy,Precision,Recall,F1 Score,Model Size (MB),Inference Time (ms)
+resnet50,23520326,,0.8848,0.8943,0.8848,0.8864,89.93,122.77
+mobilenet_v3,4209718,,0.8194,0.8399,0.8194,0.8247,16.15,14.98
+efficientnet_b3,10705454,,0.822,0.8353,0.822,0.8211,41.17,67.44

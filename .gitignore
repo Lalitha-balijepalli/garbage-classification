@@ -1,0 +1,31 @@
+# Datasets (too large / not ours to redistribute)
+data/raw/
+data/processed/
+data/splits/
+
+# Trained model weights (large binaries — use Git LFS or external storage)
+models/*.pth
+!models/.gitkeep
+
+# Kaggle credentials — NEVER commit these
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (regenerable — keep the CSV summary, drop large figure dumps if desired)
+results/figures/*.png
+
+# Streamlit
+.streamlit/secrets.toml
